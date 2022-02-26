@@ -1,0 +1,100 @@
+.containerBar {
+    width: 30%;
+    min-height: 100vh;
+    height: 100%;
+    background: inherit;
+    margin: 0 20px;
+}
+
+.img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.title-bar {
+    margin: 0;
+    font-size: 20px;
+    opacity: 0.8;
+    padding: 10px;
+}
+
+.list-item-text:hover {
+    color: #3249b2;
+}
+
+.list-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.navLinkk {
+    margin: 3px 0;
+    width: 90%;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    transition: all 350ms;
+    border-radius: 7px;
+    padding: 4px;
+    /* margin: 5px; */
+}
+
+.btn1 {
+    background-color: #3249b2;
+    color: white;
+}
+
+.btn1:hover {
+    background-color: #2941ad;
+    cursor: pointer;
+}
+
+.btn2 {
+    background-color: #bdbdbd;
+    color: black;
+}
+
+.btn2:hover {
+    background-color: #d8d5d5;
+    color: black;
+    cursor: pointer;
+}
+
+.listBtn {
+    padding: 5px 8px;
+    outline: none;
+    border: 0;
+    background: #fcd354;
+    color: #a66c29;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.code {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.list-item-text-trend {
+    font-size: 16px;
+}
+
+.list-item-text-tag:hover {
+    color: #3249b2;
+    background-color: white !important;
+}
+
+.list-item-text-query {
+    padding: 0;
+    height: 60px;
+}
+
+.list-item-text-query:hover {
+    color: #3249b2;
+    background-color: white !important;
+}

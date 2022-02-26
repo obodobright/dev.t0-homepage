@@ -1,0 +1,121 @@
+.containerMain {
+    min-height: 100vh;
+    width: 60%;
+    height: 100%;
+    background: inherit;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+nav>li {
+    padding: 7px 10px;
+    margin: 0 7px;
+    font-size: 18px;
+    list-style-type: none;
+    font-weight: 500;
+    transition: all 350ms;
+    border-radius: 4px;
+}
+
+li:hover,
+li.active:hover {
+    cursor: pointer;
+    background-color: #e2e3f3;
+    color: #3249b2;
+}
+
+li.active {
+    font-weight: bold;
+    color: black;
+}
+
+.user-img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    cursor: pointer;
+    /* background: ; */
+    margin-right: 7px;
+}
+
+.date {
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.user-container h2 {
+    margin: 10px 0;
+    font-size: 30px;
+}
+
+.user-container h2:hover {
+    cursor: pointer;
+    color: #3249b2;
+}
+
+.harshtag {
+    display: flex;
+    align-items: center;
+}
+
+.harshtag .tags {
+    margin-right: 10px;
+    font-size: 14px;
+    font-weight: 200;
+    margin-bottom: 15px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    transition: all 350ms;
+    border: 1px solid transparent;
+}
+
+.harshtag .tags:hover {
+    cursor: pointer;
+    background-color: #e2e3f3;
+    border: 1px solid lightgray;
+}
+
+.flex-one,
+.flex-two {
+    display: flex;
+    align-items: center;
+}
+
+.flex-one p,
+.flex-two p {
+    margin-right: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.opinions {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    height: 30px;
+    width: fit-content;
+    border-radius: 4px;
+    transition: all 350ms;
+}
+
+.opinions:hover,
+.savebtn:hover {
+    background-color: #e2e3f3;
+}
+
+.savebtn {
+    padding: 7px 13px;
+    cursor: pointer;
+    transition: all 350ms;
+    border-radius: 4px;
+    background-color: whitesmoke;
+}
+
+.tags small {
+    font-size: 13px;
+}
